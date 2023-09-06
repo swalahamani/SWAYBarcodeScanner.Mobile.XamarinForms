@@ -11,9 +11,9 @@
 		<RootNamespace>BarcodeScanner.Mobile.XamarinForms</RootNamespace>
 
 		<Product></Product>
-		<AssemblyVersion>6.3.0.29</AssemblyVersion>
-		<AssemblyFileVersion>6.3.0.29</AssemblyFileVersion>
-		<Version>6.3.0.29</Version>
+		<AssemblyVersion>6.3.0.30</AssemblyVersion>
+		<AssemblyFileVersion>6.3.0.30</AssemblyFileVersion>
+		<Version>6.3.0.30</Version>
 		<NeutralLanguage>en</NeutralLanguage>
 
 		<!--Don't auto add files for me, I will tell you -->
@@ -27,12 +27,12 @@
 		<!--Version of C# to use -->
 		<LangVersion>default</LangVersion>
 		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-		<Authors>Jimmy Pun, Anton Yaroshenko</Authors>
-		<Description>Updated pull request on iOS AutoFocus issue and Android emulator issues, Powerful MAUI barcode scanning library using GoogleVision API for Android and iOS.</Description>
+		<Authors>Jimmy Pun, Anton Yaroshenko | Moret84 | MSA Sway</Authors>
+		<Description>introduce zoom property to CameraView to allow to zoom on Android</Description>
 		<PackageIconUrl>https://banner2.kisspng.com/20180713/olo/kisspng-nuget-net-framework-package-manager-software-repo-nuget-5b487dc3ba81a7.452233091531477443764.jpg</PackageIconUrl>
-		<RepositoryUrl>https://github.com/JimmyPun610/BarcodeScanner.Mobile</RepositoryUrl>
-		<PackageProjectUrl>https://github.com/JimmyPun610/BarcodeScanner.Mobile</PackageProjectUrl>
-		<PackageLicenseUrl>https://github.com/JimmyPun610/BarcodeScanner.Mobile</PackageLicenseUrl>
+		<RepositoryUrl>https://github.com/Moret84/BarcodeScanner.Mobile/tree/feature/android-zoom</RepositoryUrl>
+		<PackageProjectUrl>https://github.com/Moret84/BarcodeScanner.Mobile/tree/feature/android-zoom</PackageProjectUrl>
+		<PackageLicenseUrl>https://github.com/Moret84/BarcodeScanner.Mobile/tree/feature/android-zoom</PackageLicenseUrl>
 		<RepositoryType></RepositoryType>
 		<PackageTags>Xamarin.Forms Barcode Scanning Tools</PackageTags>
 		<PackageReleaseNotes>1. Xamarin Forms version support</PackageReleaseNotes>
