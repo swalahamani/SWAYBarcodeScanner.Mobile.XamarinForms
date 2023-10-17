@@ -6,7 +6,7 @@
 		<TargetFrameworks>Xamarin.iOS10;MonoAndroid12.0;netstandard2.0</TargetFrameworks>
 
 		<!--Assembly and Namespace info -->
-		<id>BarcodeScanner.Mobile.XamarinForms</id>
+		<id>SWBarcodeScanner.Mobile.XamarinForms</id>
 		<AssemblyName>BarcodeScanner.Mobile.XamarinForms</AssemblyName>
 		<RootNamespace>BarcodeScanner.Mobile.XamarinForms</RootNamespace>
 
@@ -27,12 +27,12 @@
 		<!--Version of C# to use -->
 		<LangVersion>default</LangVersion>
 		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-		<Authors>Jimmy Pun, Anton Yaroshenko | Moret84 | MSA Sway</Authors>
+		<Authors>Jimmy Pun, Anton Yaroshenko | Moret84 | Muhammad Swalah (Softway)</Authors>
 		<Description>introduce zoom property to CameraView to allow to zoom on Android</Description>
 		<PackageIconUrl>https://banner2.kisspng.com/20180713/olo/kisspng-nuget-net-framework-package-manager-software-repo-nuget-5b487dc3ba81a7.452233091531477443764.jpg</PackageIconUrl>
-		<RepositoryUrl>https://github.com/Moret84/BarcodeScanner.Mobile/tree/feature/android-zoom</RepositoryUrl>
-		<PackageProjectUrl>https://github.com/Moret84/BarcodeScanner.Mobile/tree/feature/android-zoom</PackageProjectUrl>
-		<PackageLicenseUrl>https://github.com/Moret84/BarcodeScanner.Mobile/tree/feature/android-zoom</PackageLicenseUrl>
+		<RepositoryUrl>https://github.com/swalahamani/SWAYBarcodeScanner.Mobile.XamarinForms</RepositoryUrl>
+		<PackageProjectUrl>https://github.com/swalahamani/SWAYBarcodeScanner.Mobile.XamarinForms</PackageProjectUrl>
+		<PackageLicenseUrl>https://github.com/swalahamani/SWAYBarcodeScanner.Mobile.XamarinForms/blob/main/LICENSE</PackageLicenseUrl>
 		<RepositoryType></RepositoryType>
 		<PackageTags>Xamarin.Forms Barcode Scanning Tools</PackageTags>
 		<PackageReleaseNotes>1. Xamarin Forms version support</PackageReleaseNotes>
