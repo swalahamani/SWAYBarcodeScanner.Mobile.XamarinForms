@@ -7,7 +7,7 @@ using Xamarin.Google.MLKit.Vision.Barcode.Common;
 using Xamarin.Google.MLKit.Vision.BarCode;
 using Xamarin.Google.MLKit.Vision.Common;
 
-namespace BarcodeScanner.Mobile
+namespace SWAYBarcodeScanner.Mobile
 {
     // All the code in this file is only included on Android.
     public class Methods

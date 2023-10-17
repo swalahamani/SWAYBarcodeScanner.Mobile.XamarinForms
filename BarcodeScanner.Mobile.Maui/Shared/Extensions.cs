@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BarcodeScanner.Mobile
+namespace SWAYBarcodeScanner.Mobile
 {
     public static class Extensions
     {

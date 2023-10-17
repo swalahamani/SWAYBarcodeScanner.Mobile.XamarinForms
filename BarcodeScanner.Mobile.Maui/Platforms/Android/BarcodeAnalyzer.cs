@@ -7,7 +7,7 @@ using Java.Nio;
 using Xamarin.Google.MLKit.Vision.BarCode;
 using Xamarin.Google.MLKit.Vision.Common;
 
-namespace BarcodeScanner.Mobile.Platforms.Android
+namespace SWAYBarcodeScanner.Mobile.Platforms.Android
 {
     public class BarcodeAnalyzer : Java.Lang.Object, ImageAnalysis.IAnalyzer
     {

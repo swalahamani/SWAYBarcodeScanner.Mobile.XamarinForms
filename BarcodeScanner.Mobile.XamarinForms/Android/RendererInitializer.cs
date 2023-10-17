@@ -1,4 +1,4 @@
-﻿namespace BarcodeScanner.Mobile.Droid
+﻿namespace SWAYBarcodeScanner.Mobile.Droid
 {
     public class RendererInitializer
     {

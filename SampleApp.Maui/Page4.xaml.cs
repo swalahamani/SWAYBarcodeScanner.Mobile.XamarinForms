@@ -1,4 +1,4 @@
-using BarcodeScanner.Mobile;
+using SWAYBarcodeScanner.Mobile;
 using Microsoft.Maui.Controls.PlatformConfiguration;
 using Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific;
 
@@ -70,7 +70,7 @@ public partial class Page4 : ContentPage
                 byte[] bytes = new byte[stream.Length];
                 await stream.ReadAsync(bytes, 0, bytes.Length);
                 stream.Seek(0, SeekOrigin.Begin);
-                List<BarcodeResult> obj = await BarcodeScanner.Mobile.Methods.ScanFromImage(bytes);
+                List<BarcodeResult> obj = await SWAYBarcodeScanner.Mobile.Methods.ScanFromImage(bytes);
                 if (obj == null)
                 {
                     this.Dispatcher.Dispatch(async () =>

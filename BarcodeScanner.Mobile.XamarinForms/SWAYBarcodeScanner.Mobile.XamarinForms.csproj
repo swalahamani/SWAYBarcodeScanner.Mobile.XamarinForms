@@ -7,8 +7,8 @@
 
 		<!--Assembly and Namespace info -->
 		<id>SWBarcodeScanner.Mobile.XamarinForms</id>
-		<AssemblyName>BarcodeScanner.Mobile.XamarinForms</AssemblyName>
-		<RootNamespace>BarcodeScanner.Mobile.XamarinForms</RootNamespace>
+		<AssemblyName>SWBarcodeScanner.Mobile.XamarinForms</AssemblyName>
+		<RootNamespace>SWBarcodeScanner.Mobile.XamarinForms</RootNamespace>
 
 		<Product></Product>
 		<AssemblyVersion>6.3.0.30</AssemblyVersion>

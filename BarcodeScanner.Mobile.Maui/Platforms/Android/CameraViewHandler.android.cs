@@ -8,13 +8,13 @@ using AndroidX.Camera.Lifecycle;
 using AndroidX.Camera.View;
 using AndroidX.Core.Content;
 using AndroidX.Lifecycle;
-using BarcodeScanner.Mobile.Platforms.Android;
+using SWAYBarcodeScanner.Mobile.Platforms.Android;
 using Google.Common.Util.Concurrent;
 using Java.Lang;
 using Java.Util.Concurrent;
 using Exception = System.Exception;
 
-namespace BarcodeScanner.Mobile
+namespace SWAYBarcodeScanner.Mobile
 {
     public partial class CameraViewHandler
     {

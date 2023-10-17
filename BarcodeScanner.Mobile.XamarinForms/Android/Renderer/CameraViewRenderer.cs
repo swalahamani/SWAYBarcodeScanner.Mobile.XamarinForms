@@ -26,10 +26,10 @@ using Exception = Java.Lang.Exception;
 using Android.Runtime;
 using Android.OS;
 
-[assembly: ExportRenderer(typeof(BarcodeScanner.Mobile.CameraView), typeof(BarcodeScanner.Mobile.Renderer.CameraViewRenderer))]
-namespace BarcodeScanner.Mobile.Renderer
+[assembly: ExportRenderer(typeof(SWAYBarcodeScanner.Mobile.CameraView), typeof(SWAYBarcodeScanner.Mobile.Renderer.CameraViewRenderer))]
+namespace SWAYBarcodeScanner.Mobile.Renderer
 {
-    internal class CameraViewRenderer : Xamarin.Forms.Platform.Android.AppCompat.ViewRenderer<BarcodeScanner.Mobile.CameraView, PreviewView>
+    internal class CameraViewRenderer : Xamarin.Forms.Platform.Android.AppCompat.ViewRenderer<SWAYBarcodeScanner.Mobile.CameraView, PreviewView>
     {
 
         private bool _isDisposed;
@@ -47,7 +47,7 @@ namespace BarcodeScanner.Mobile.Renderer
             _cameraFuture   = ProcessCameraProvider.GetInstance(context);
         }
 
-        protected override void OnElementChanged(ElementChangedEventArgs<BarcodeScanner.Mobile.CameraView> e)
+        protected override void OnElementChanged(ElementChangedEventArgs<SWAYBarcodeScanner.Mobile.CameraView> e)
         {
             base.OnElementChanged(e);
 
@@ -65,19 +65,19 @@ namespace BarcodeScanner.Mobile.Renderer
         protected override void OnElementPropertyChanged(object sender, PropertyChangedEventArgs e)
         {
             base.OnElementPropertyChanged(sender, e);
-            if (e.PropertyName == BarcodeScanner.Mobile.CameraView.TorchOnProperty.PropertyName)
+            if (e.PropertyName == SWAYBarcodeScanner.Mobile.CameraView.TorchOnProperty.PropertyName)
             {
                 HandleTorch();
             }
-            else if (e.PropertyName == BarcodeScanner.Mobile.CameraView.CameraFacingProperty.PropertyName)
+            else if (e.PropertyName == SWAYBarcodeScanner.Mobile.CameraView.CameraFacingProperty.PropertyName)
             {
                 CameraCallback();
             }
-            else if (e.PropertyName == BarcodeScanner.Mobile.CameraView.CaptureQualityProperty.PropertyName)
+            else if (e.PropertyName == SWAYBarcodeScanner.Mobile.CameraView.CaptureQualityProperty.PropertyName)
             {
                 CameraCallback();
             }
-            else if (e.PropertyName == BarcodeScanner.Mobile.CameraView.ZoomProperty.PropertyName)
+            else if (e.PropertyName == SWAYBarcodeScanner.Mobile.CameraView.ZoomProperty.PropertyName)
             {
                 HandleZoom();
             }

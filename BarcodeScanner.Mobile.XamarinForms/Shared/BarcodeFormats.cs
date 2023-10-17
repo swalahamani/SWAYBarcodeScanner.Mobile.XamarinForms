@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace BarcodeScanner.Mobile
+namespace SWAYBarcodeScanner.Mobile
 {
     [Flags]
     public enum BarcodeFormats

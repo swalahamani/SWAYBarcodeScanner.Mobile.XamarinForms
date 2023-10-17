@@ -4,7 +4,7 @@ using MLKit.BarcodeScanning;
 using MLKit.Core;
 using UIKit;
 
-namespace BarcodeScanner.Mobile
+namespace SWAYBarcodeScanner.Mobile
 {
     // All the code in this file is only included on iOS.
     public class Methods

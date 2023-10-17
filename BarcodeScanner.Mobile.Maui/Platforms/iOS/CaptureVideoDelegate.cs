@@ -8,7 +8,7 @@ using AudioToolbox;
 using UIKit;
 using MLKit.Core;
 
-namespace BarcodeScanner.Mobile.Platforms.iOS
+namespace SWAYBarcodeScanner.Mobile.Platforms.iOS
 {
     public class CaptureVideoDelegate : AVCaptureVideoDataOutputSampleBufferDelegate
     {

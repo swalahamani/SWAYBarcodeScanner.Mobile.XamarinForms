@@ -9,10 +9,10 @@ using MLKit.BarcodeScanning;
 using Foundation;
 using AudioToolbox;
 using UIKit;
-using BarcodeScanner.Mobile.Renderer;
+using SWAYBarcodeScanner.Mobile.Renderer;
 using MLKit.Core;
 
-namespace BarcodeScanner.Mobile
+namespace SWAYBarcodeScanner.Mobile
 {
     internal sealed class UICameraPreview : UIView
     {

@@ -1,6 +1,6 @@
 ﻿using MLKit.BarcodeScanning;
 
-namespace BarcodeScanner.Mobile
+namespace SWAYBarcodeScanner.Mobile
 {
     public class Configuration
     {

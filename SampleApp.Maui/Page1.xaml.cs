@@ -1,5 +1,5 @@
 using System.Collections.Generic;
-using BarcodeScanner.Mobile;
+using SWAYBarcodeScanner.Mobile;
 using Microsoft.Maui.Controls.PlatformConfiguration;
 using Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific;
 
@@ -18,7 +18,7 @@ public partial class Page1 : ContentPage
     public Page1()
     {
         InitializeComponent();
-        BarcodeScanner.Mobile.Methods.SetSupportBarcodeFormat(BarcodeFormats.Code39 | BarcodeFormats.QRCode | BarcodeFormats.Code128);
+        SWAYBarcodeScanner.Mobile.Methods.SetSupportBarcodeFormat(BarcodeFormats.Code39 | BarcodeFormats.QRCode | BarcodeFormats.Code128);
         On<iOS>().SetUseSafeArea(true);
     }
 

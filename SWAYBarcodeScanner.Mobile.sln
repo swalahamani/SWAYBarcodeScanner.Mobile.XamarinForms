@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32519.111
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BarcodeScanner.Mobile.XamarinForms", "BarcodeScanner.Mobile.XamarinForms\BarcodeScanner.Mobile.XamarinForms.csproj", "{61557FF8-ACD6-4C66-A5B1-B0D461A3DAD3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SWAYBarcodeScanner.Mobile.XamarinForms", "BarcodeScanner.Mobile.XamarinForms\SWAYBarcodeScanner.Mobile.XamarinForms.csproj", "{61557FF8-ACD6-4C66-A5B1-B0D461A3DAD3}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "source", "source", "{33FFD854-0B4D-4920-96A6-0AAADFD1B5BF}"
 EndProject

@@ -1,4 +1,4 @@
-﻿using BarcodeScanner.Mobile;
+﻿using SWAYBarcodeScanner.Mobile;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -111,7 +111,7 @@ namespace SampleApp.Maui.ImageCapture
 
         public void ExecuteOnDetectedCommand(OnDetectedEventArg arg)
         {
-            List<BarcodeScanner.Mobile.BarcodeResult> obj = arg.BarcodeResults;
+            List<SWAYBarcodeScanner.Mobile.BarcodeResult> obj = arg.BarcodeResults;
 
             string result = string.Empty;
             for (int i = 0; i < obj.Count; i++)

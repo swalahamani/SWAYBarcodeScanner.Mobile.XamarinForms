@@ -1,5 +1,5 @@
 ﻿using AVFoundation;
-using BarcodeScanner.Mobile.Platforms.iOS;
+using SWAYBarcodeScanner.Mobile.Platforms.iOS;
 using CoreVideo;
 using Foundation;
 using System;
@@ -9,7 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using UIKit;
 
-namespace BarcodeScanner.Mobile
+namespace SWAYBarcodeScanner.Mobile
 {
     public partial class CameraViewHandler
     {

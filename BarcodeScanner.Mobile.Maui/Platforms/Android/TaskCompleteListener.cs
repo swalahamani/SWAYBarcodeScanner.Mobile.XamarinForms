@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BarcodeScanner.Mobile.Platforms.Android
+namespace SWAYBarcodeScanner.Mobile.Platforms.Android
 {
     internal class TaskCompleteListener : Java.Lang.Object, IOnCompleteListener
     {

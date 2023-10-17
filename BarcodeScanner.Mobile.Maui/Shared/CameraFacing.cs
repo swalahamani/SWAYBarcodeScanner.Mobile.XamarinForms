@@ -1,4 +1,4 @@
-﻿namespace BarcodeScanner.Mobile
+﻿namespace SWAYBarcodeScanner.Mobile
 {
     public enum CameraFacing
     {

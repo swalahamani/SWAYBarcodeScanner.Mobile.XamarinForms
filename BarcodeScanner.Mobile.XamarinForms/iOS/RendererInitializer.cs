@@ -1,4 +1,4 @@
-﻿namespace BarcodeScanner.Mobile.iOS
+﻿namespace SWAYBarcodeScanner.Mobile.iOS
 {
     public class Initializer
     {

@@ -1,5 +1,5 @@
 ﻿
-namespace BarcodeScanner.Mobile
+namespace SWAYBarcodeScanner.Mobile
 {
     public class BarcodeResult
     {

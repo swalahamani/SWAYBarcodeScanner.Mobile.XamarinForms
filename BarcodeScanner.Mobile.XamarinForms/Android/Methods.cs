@@ -9,7 +9,7 @@ using Android.Runtime;
 using Java.Util;
 using Android.Gms.Extensions;
 
-namespace BarcodeScanner.Mobile
+namespace SWAYBarcodeScanner.Mobile
 {
     public class Methods
     {

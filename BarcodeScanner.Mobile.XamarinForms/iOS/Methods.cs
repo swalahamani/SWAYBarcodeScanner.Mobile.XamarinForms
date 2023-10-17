@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 using UIKit;
 using Xamarin.Essentials;
 
-namespace BarcodeScanner.Mobile
+namespace SWAYBarcodeScanner.Mobile
 {
     public class Methods
     {

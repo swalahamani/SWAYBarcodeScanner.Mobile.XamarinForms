@@ -1,6 +1,6 @@
 ﻿using Xamarin.Google.MLKit.Vision.Barcode.Common;
 
-namespace BarcodeScanner.Mobile
+namespace SWAYBarcodeScanner.Mobile
 {
     public static class Configuration
     {

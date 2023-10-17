@@ -3,8 +3,8 @@ using Xamarin.Forms;
 using ObjCRuntime;
 using Xamarin.Forms.Platform.iOS;
 
-[assembly: ExportRenderer(typeof(BarcodeScanner.Mobile.CameraView), typeof(BarcodeScanner.Mobile.Renderer.CameraViewRenderer))]
-namespace BarcodeScanner.Mobile.Renderer
+[assembly: ExportRenderer(typeof(SWAYBarcodeScanner.Mobile.CameraView), typeof(SWAYBarcodeScanner.Mobile.Renderer.CameraViewRenderer))]
+namespace SWAYBarcodeScanner.Mobile.Renderer
 {
     internal class CameraViewRenderer : ViewRenderer<CameraView, UICameraPreview>
     {

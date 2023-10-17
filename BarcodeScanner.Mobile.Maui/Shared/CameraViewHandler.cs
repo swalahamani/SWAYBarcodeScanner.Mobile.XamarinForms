@@ -1,7 +1,7 @@
 ﻿using Microsoft.Maui.Handlers;
 
 #if IOS
-using NativeCameraView = BarcodeScanner.Mobile.Platforms.iOS.UICameraPreview;
+using NativeCameraView = SWAYBarcodeScanner.Mobile.Platforms.iOS.UICameraPreview;
 #elif ANDROID
 using NativeCameraView = AndroidX.Camera.View.PreviewView;
 using AndroidX.Camera.View;
@@ -9,7 +9,7 @@ using AndroidX.Camera.View;
 using NativeCameraView = Microsoft.UI.Xaml.Controls.GridView;
 #endif
 
-namespace BarcodeScanner.Mobile
+namespace SWAYBarcodeScanner.Mobile
 {
 #if ANDROID || IOS || WINDOWS
     public partial class CameraViewHandler : ViewHandler<ICameraView, NativeCameraView>

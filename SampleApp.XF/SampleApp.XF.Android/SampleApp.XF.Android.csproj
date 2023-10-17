@@ -93,7 +93,7 @@
   <ItemGroup>
     <ProjectReference Include="..\..\BarcodeScanner.Mobile.XamarinForms\BarcodeScanner.Mobile.XamarinForms.csproj">
       <Project>{61557ff8-acd6-4c66-a5b1-b0d461a3dad3}</Project>
-      <Name>BarcodeScanner.Mobile.XamarinForms</Name>
+      <Name>SWAYBarcodeScanner.Mobile.XamarinForms</Name>
       <IsAppExtension>false</IsAppExtension>
     </ProjectReference>
     <ProjectReference Include="..\SampleApp.XF\SampleApp.XF.csproj">

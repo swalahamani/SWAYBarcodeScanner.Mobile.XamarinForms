@@ -1,4 +1,4 @@
-﻿using BarcodeScanner.Mobile;
+﻿using SWAYBarcodeScanner.Mobile;
 using Microsoft.Maui.Controls.Compatibility.Hosting;
 
 namespace SampleApp.Maui
